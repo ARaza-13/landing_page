@@ -63,13 +63,19 @@ button {
     background-color: white;
     color: #3882f6;
 }
+
+.info .title {
+    color: inherit;
+    margin: 52px 0;
+}
 /* End of Colors and Font */
 
 
 /* Nav Bar Positioning */
 .nav {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
+    align-items: center; 
     flex-wrap: wrap;
     padding: 16px 72px;
     border-bottom: 1px solid #1f2937;
@@ -102,3 +108,28 @@ ul {
     gap: 16px;
 }
 /* End of Header Positioning */
+
+
+/* Start of Info Positioning */
+.info {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 52px;
+}
+
+.item {
+    max-width: 350px;
+}
+.item img {
+    border: 2px solid #3882f6;
+    border-radius: 20px;
+}
+.item .text {
+    padding-top: 12px;
+}
+/* End of Info Positioning */
