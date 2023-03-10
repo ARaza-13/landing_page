@@ -65,8 +65,22 @@ button {
 }
 
 .info .title {
-    color: inherit;
+    color: #1f2937;
+    font-size: 36px;
     margin: 52px 0;
+}
+
+.quote .text {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.author {
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: 800;
 }
 /* End of Colors and Font */
 
@@ -133,3 +147,18 @@ ul {
     padding-top: 12px;
 }
 /* End of Info Positioning */
+
+
+/* Start of Quote Positioning */
+.quote {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    gap: 10px;
+    padding: 250px;
+}
+
+.author {
+ white-space: nowrap;   
+}
+/* End of Quote Positioning */
