@@ -9,6 +9,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+section {
+    width: 98%;
+    max-width: 1250px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 a {
     color: inherit;
     text-decoration: none;
@@ -32,6 +39,11 @@ img {
 
 li a:hover, li a:focus {
     text-decoration: underline;
+}
+
+.box {
+    border-bottom: 1px solid #1f2937;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
 }
 
 .logo a, .bold {
@@ -95,9 +107,7 @@ button {
     justify-content: space-between;
     align-items: center; 
     flex-wrap: wrap;
-    padding: 16px 72px;
-    border-bottom: 1px solid #1f2937;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
+    padding: 16px 0px;
 }
 
 ul {
@@ -113,7 +123,7 @@ ul {
     flex-direction: row-reverse;
     align-items: center;
     gap: 50px;
-    padding: 72px;
+    padding: 72px 0px;
 }
 
 .header :is(.picture, .header-left) {
@@ -160,7 +170,8 @@ ul {
     align-content: center;
     align-items: flex-end;
     gap: 10px;
-    padding: 200px;
+    padding: 200px 0px;
+    width: 50%;
 }
 
 .author {
@@ -173,12 +184,11 @@ ul {
 .contact {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     background-color: #3882f6;
     border-radius: 5px;
-    padding: 24px 72px;
-    margin: 0px 72px;
+    padding: 48px 0px;
 }
 /* End of Contact Positioning */
 
