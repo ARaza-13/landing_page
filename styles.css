@@ -26,7 +26,7 @@ img {
 
 
 /* Colors and Font */
-.hero {  
+.hero, .footer {  
     background-color: #1f2937;   
 }
 
@@ -34,13 +34,13 @@ li a:hover, li a:focus {
     text-decoration: underline;
 }
 
-.logo a {
+.logo a, .bold {
     font-size: 24px;
     color: #f9faf8;
     font-weight: 1000;
 }
 
-.links a, .description, button {
+.links a, .description, button, .contact-left .text, .footer {
     font-size: 16px;
     color: #e5e7eb;
 }
@@ -81,6 +81,10 @@ button {
     color: #1f2937;
     font-size: 24px;
     font-weight: 800;
+}
+
+.contact button {
+    border: 2px solid white;
 }
 /* End of Colors and Font */
 
@@ -153,12 +157,36 @@ ul {
 .quote {
     display: flex;
     flex-flow: column wrap;
+    align-content: center;
     align-items: flex-end;
     gap: 10px;
-    padding: 250px;
+    padding: 200px;
 }
 
 .author {
  white-space: nowrap;   
 }
 /* End of Quote Positioning */
+
+
+/* Start of Contact Positioning */
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 24px 72px;
+    margin: 0px 72px;
+}
+/* End of Contact Positioning */
+
+
+/* Start of Footer */
+.footer {
+    margin-top: 72px;
+    text-align: center;
+    padding: 48px 0;
+}
+/* End of Footer */
