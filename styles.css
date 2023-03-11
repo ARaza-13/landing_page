@@ -32,6 +32,29 @@ img {
 /* End of Setup */
 
 
+/* Start of Media Setup */
+@media screen and (max-width: 900px) {
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .box .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 584px) {
+    body .contact {
+        text-align: center;
+    }
+}
+/* End of media setup */
+
+
 /* Colors and Font */
 .hero, .footer {  
     background-color: #1f2937;   
@@ -106,7 +129,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     padding: 16px 0px;
 }
 
@@ -189,6 +212,10 @@ ul {
     background-color: #3882f6;
     border-radius: 5px;
     padding: 48px 0px;
+}
+
+.contact-left :is(.bold, .text) {
+    margin-bottom: 6px;
 }
 /* End of Contact Positioning */
 
