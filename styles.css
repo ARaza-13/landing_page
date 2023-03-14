@@ -44,12 +44,16 @@ img {
     .box .nav {
         flex-wrap: wrap;
         justify-content: center;
+        gap: 8px;
     }
 }
 
 @media screen and (max-width: 584px) {
-    body .contact {
+    body .contact, .contact-left {
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
     }
 }
 /* End of media setup */
@@ -129,7 +133,6 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    /* flex-wrap: wrap; */
     padding: 16px 0px;
 }
 
